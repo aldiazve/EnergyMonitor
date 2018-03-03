@@ -10,7 +10,6 @@
   box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
   width:100%;
   margin-left: 0px;
-  height: 150px;
 }
 
 .meter-bar {
@@ -27,8 +26,31 @@
 .meter-bar.green { 
 	background-color:#9BB200;
  }
+ .meter-bar.red { 
+	background-color:red;
+ }
+
+ .meter-bar.blue { 
+	background-color:blue;
+ }
+
+ .meter-bar.yellow { 
+	background-color:yellow;
+ }
 .meter-bar.gray { 
 	background-color: #F1F1F1; color:black;
+ }
+
+ .sub-txt-number{
+	 padding-top: 0px;
+	 display: inline;
+	font-weight: bold;
+	font-size: 20px;
+ }
+
+ .kWh{
+	 display: inline;
+	 padding-top: 0px;
  }
 
 [data-tooltip] {
