@@ -16,7 +16,6 @@
 .meter-bar {
   float: left;
   height: 100%;
-  font-size: 12px;
   line-height: 20px;
   color: #fff;
   text-align: center;
@@ -92,4 +91,19 @@
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
 	opacity: 1;
+}
+
+.txt-green{
+	color: white;
+	font-size: 30px;
+}
+.progress-green {
+	color: white;
+	font-size: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.txt-gray {
+	color: gray;
+	font-size: 30px;
 }
