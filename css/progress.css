@@ -38,7 +38,8 @@
 	background-color:yellow;
  }
 .meter-bar.gray { 
-	background-color: #F1F1F1; color:black;
+	background-color: #F1F1F1; 
+	color:black;
  }
 
  .sub-txt-number{
@@ -48,10 +49,23 @@
 	font-size: 20px;
  }
 
+ .sub-txt-gray-number{
+	padding-top: 0px;
+	display: inline;
+  font-weight: bold;
+	font-size: 20px;
+	color: gray;
+ }
+
  .kWh{
 	 display: inline;
 	 padding-top: 0px;
  }
+ .kWh2{
+	display: inline;
+	padding-top: 0px;
+	color: gray;
+}
 
 [data-tooltip] {
 	position: relative;
