@@ -29,8 +29,13 @@ body {
     transition: 0.3s;
 }
 
-
 .btn-link {
     border:1px solid black;
     width:50%;
+    margin-bottom: 30px;
+    border-color: #dadada;
+}
+
+.img-logo {
+    margin-bottom:40px;
 }
