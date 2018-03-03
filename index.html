@@ -1,74 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=1300,height=1000, initial-scale=1.0, user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-  <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="css/progress.css">
-  <link rel="manifest" href="json/manifest.json">
-</head>
-<body>  
-  <div class="sidenav">
-    <center>
-      <img src="img/weather.png" alt="" class="img-logo">  
-      <br><br>
-      <div class="btn-link">
-        <a href="#">Home</a>
-      </div>
-      <div class="btn-link">
-        <a href="#">Data</a>
-      </div>
-      <div class="btn-link">
-        <a href="#">Actions</a>
-      </div>
-      <div class="btn-link">
-        <a href="#">Wallet</a>
-      </div>
-    </center>
-  </div>
-  <div class="main-tittle">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1300,height=1000, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/progress.css">
+    <link rel="manifest" href="json/manifest.json">
+  </head>
+  <body>
+    <div class="sidenav">
+      <center>
+        <img src="img/weather.png" alt="" class="img-logo">  
+        <br><br>
+        <div class="btn-link">
+          <a href="#">Home</a>
+        </div>
+        <div class="btn-link">
+          <a href="#">Data</a>
+        </div>
+        <div class="btn-link">
+          <a href="#">Actions</a>
+        </div>
+        <div class="btn-link">
+          <a href="#">Wallet</a>
+        </div>
+      </center>
+    </div>
+    <div class="main-tittle">
       Community Consumption This Month
-  </div>
-
-  <div id='container' >
+    </div>
+    <div id='container' >
       <div class="meter" style="height: 150px;">
         <div class='meter-bar green' style="width: 60%;height: 150px;" data-tooltip='This month’s aggregated energy consumption by the community.'>
           <div class="txt-green first-txt" >
             This month:
-          </div> 
+          </div>
           <div class="progress-green">
-              37500
+            37500
           </div>
           <div class="txt-green">
-              kWh
+            kWh
           </div>
         </div>
         <div class='meter-bar gray' style="width: 20%;height: 150px;" data-tooltip='Last month’s aggregated energy on the same date '>
           <div class="txt-gray first-txt">
-              Last month: 58987 kWh
+            Last month: 58987 kWh
           </div>
         </div>
       </div>
-
-      <div class="meter" style="margin-top:100px;height: 60px" >
-          <div class='meter-bar red' style="width: 60%;height: 60px;" data-tooltip='This month’s aggregated energy consumption by the community.'>
-            <div style="margin-top: 20px">
-              <p class="sub-txt-number" > 37500 </p> 
-              <p class="kWh">kWh</p>
-            </div>
-          </div>
-          <div class='meter-bar gray' style="width: 20%;height: 60px;" data-tooltip='Last month’s aggregated energy on the same date '>
-          <div style="margin-top: 10px"> 
-            <p class="sub-txt-gray-number ">58987 </div>
-            <p class="kWh2">kWh</div>
-          </div>
+      <h2 style="margin-top:100px;">Heating and cooling</h2>
+      <div class="meter" style="height: 60px" >
+        <div class='meter-bar red' style="width: 60%;height: 60px;" >
+          <div style="margin-top: 20px">
+            <p class="sub-txt-number" > 37500 </p>
+            <p class="kWh">kWh</p>
           </div>
         </div>
-  
+        <div class='meter-bar gray' style="width: 20%;height: 60px;">
+          <div style="margin-top: 10px">
+            <p class="sub-txt-gray-number ">58987 
+          </div>
+          <p class="kWh2">kWh
+        </div>
+      </div>
+
+      <h2 style="margin-top:20px;">Lights</h2>
+      <div class="meter" style="height: 60px" >
+        <div class='meter-bar yellow' style="width: 60%;height: 60px;" >
+          <div style="margin-top: 20px">
+            <p class="sub-txt-number" > 37500 </p>
+            <p class="kWh">kWh</p>
+          </div>
+        </div>
+        <div class='meter-bar gray' style="width: 20%;height: 60px;">
+          <div style="margin-top: 10px">
+            <p class="sub-txt-gray-number ">58987 
+          </div>
+          <p class="kWh2">kWh
+        </div>
+      </div>
+
+
+      <h2 style="margin-top:20px;">Water Boiler</h2>
+      <div class="meter" style="height: 60px" >
+        <div class='meter-bar blue' style="width: 60%;height: 60px;" >
+          <div style="margin-top: 20px">
+            <p class="sub-txt-number" > 37500 </p>
+            <p class="kWh">kWh</p>
+          </div>
+        </div>
+        <div class='meter-bar gray' style="width: 20%;height: 60px;">
+          <div style="margin-top: 10px">
+            <p class="sub-txt-gray-number ">58987 
+          </div>
+          <p class="kWh2">kWh
+        </div>
+      </div>
 
     </div>
-
-
+    </div>
+    </div>
   </body>
 </html>
