@@ -6,7 +6,11 @@
  */
 
  function displayOptions(){
-  document.getElementById("sub-progress").style.display = "inline";
+  if(document.getElementById("sub-progress").style.display == "inline"){
+    document.getElementById("sub-progress").style.display = "none";
+  }else{
+    document.getElementById("sub-progress").style.display = "inline";
+  }
  }
 
  function displayRightMenu(){
