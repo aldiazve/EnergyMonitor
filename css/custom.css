@@ -65,3 +65,23 @@
     cursor: pointer;
     margin-left:-190px;
 }
+
+.sidenav-right h3 {
+    display: inline;
+}
+
+.wrapper2 {
+    margin-top: -40px;
+    margin-left: 20px;
+}
+
+.bell {
+    float: right;
+    margin-right: 10px;
+    font-size: 30px;
+    color: gold;
+}
+
+.content-right-menu{
+    margin-top: 10px;
+}
