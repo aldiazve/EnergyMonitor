@@ -79,11 +79,13 @@
     margin-right: 10px;
     font-size: 30px;
     color: gold;
+    cursor: pointer;
 }
 
 #bell1 {
     margin-top: -135px;
     color: gray;
+    cursor: pointer;
 }
 
 .content-right-menu{
