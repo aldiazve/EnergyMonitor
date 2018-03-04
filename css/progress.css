@@ -16,52 +16,52 @@
 
 .meter-bar {
   float: left;
-  height: 100%;
-  line-height: 20px;
-  color: #fff;
-  text-align: center;
-  transition: width .6s ease;
+	height: 100%;
+	line-height: 20px;
+	color: #fff;
+	text-align: center;
+	transition: width .6s ease;
 }
 
 .meter-bar.green { 
 	background-color:#9BB200;
- }
- .meter-bar.red { 
+}
+.meter-bar.red { 
 	background-color:red;
- }
+}
 
- .meter-bar.blue { 
+.meter-bar.blue { 
 	background-color:blue;
- }
+}
 
- .meter-bar.yellow { 
+.meter-bar.yellow { 
 	background-color:#ff9900;
- }
+}
 .meter-bar.gray { 
 	background-color: #F1F1F1; 
 	color:black;
- }
+}
 
- .sub-txt-number{
-	 padding-top: 0px;
-	 display: inline;
-	font-weight: bold;
-	font-size: 20px;
- }
-
- .sub-txt-gray-number{
+.sub-txt-number{
 	padding-top: 0px;
 	display: inline;
-  font-weight: bold;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.sub-txt-gray-number{
+	padding-top: 0px;
+	display: inline;
+	font-weight: bold;
 	font-size: 20px;
 	color: gray;
- }
+}
 
- .kWh{
-	 display: inline;
-	 padding-top: 0px;
- }
- .kWh2{
+.kWh{
+	display: inline;
+	padding-top: 0px;
+}
+.kWh2{
 	display: inline;
 	padding-top: 0px;
 	color: gray;
