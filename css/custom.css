@@ -30,6 +30,9 @@
     color: #000;
     display: block;
     transition: 0.3s;
+    border-style: solid;
+    border-color: #dadada;
+    border-width: 1px;
 }
 
 .btn-link {
