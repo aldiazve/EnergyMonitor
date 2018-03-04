@@ -8,3 +8,7 @@
  function displayOptions(){
   document.getElementById("sub-progress").style.display = "inline";
  }
+
+ function displayRightMenu(){
+  document.getElementById("sidenav-right").style.display = "inline";
+ }

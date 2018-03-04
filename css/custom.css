@@ -52,7 +52,7 @@
 }
 
 .main-tittle {
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 150px;
     color:black;
     font-weight: bold;
@@ -62,7 +62,7 @@
 .glyphicon.glyphicon-option-horizontal {
     font-size: 55px;
     cursor: pointer;
-    margin-left:-190px;
+    margin-left:-140px;
 }
 
 .sidenav-right h3 {
