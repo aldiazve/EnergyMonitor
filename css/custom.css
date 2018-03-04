@@ -1,6 +1,6 @@
 .sidenav-left {
     height: 100%;
-    width: 300px;
+    width: 280px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -12,12 +12,11 @@
 }
 
 .sidenav-right {
-    height: 100%;
-    width: 300px;
-    position: fixed;
+    height: 1000px;
+    width: 280px;
+    margin-top: -150px;
+    float:right;
     z-index: 1;
-    top: 0;
-    left: 1065px;
     background-color: #F1F1F1;
     overflow-x: hidden;
     transition: 0.5s;
