@@ -32,7 +32,6 @@
         </div>
       </center>
     </div>
-
     <div class="sidenav-right" id="sidenav-right" style=" margin-top:-20px;">
       <div class="wrapper2">
         <div class="header-right-menu">
@@ -40,25 +39,31 @@
           <span class="glyphicon glyphicon-bell bell" onclick="hideRightMenu()"></span>
         </div>
         <div class="content-right-menu">
-            <div class="item-content" style="background-color: yellow;">
-              <div class="item-right-menu">
-                <b >21</b><p style="display:inline"> MARCH: </p>  <p style="color:red;display:inline">Your community is doing better than last month, but still on track to exceed the monthly goal.</p>
-              </div>
-            </div>
+          <div class="item-content" style="background-color: yellow;">
             <div class="item-right-menu">
-              <p style="display:inline"> FEBRUARY: </p>  <p style="color:green;display:inline">Your community met the monthly goal.</p>
+              <b >21</b>
+              <p style="display:inline"> MARCH: </p>
+              <p style="color:red;display:inline">Your community is doing better than last month, but still on track to exceed the monthly goal.</p>
             </div>
+          </div>
+          <div class="item-right-menu">
+            <p style="display:inline"> FEBRUARY: </p>
+            <p style="color:green;display:inline">Your community met the monthly goal.</p>
+          </div>
+          <div class="item-right-menu">
+            <p style="display:inline"> JANUARY: </p>
+            <p style="color:green;display:inline">Your community met the monthly goal.</p>
+          </div>
+          <div class="item-content" style="background-color: #f4d5d5;">
             <div class="item-right-menu">
-                <p style="display:inline"> JANUARY: </p>  <p style="color:green;display:inline">Your community met the monthly goal.</p>
+              <p style="display:inline"> DECEMBER: </p>
+              <p style="color:green;display:inline">Your community met the monthly goal.</p>
             </div>
-            <div class="item-content" style="background-color: #f4d5d5;">
-              <div class="item-right-menu">
-                <p style="display:inline"> DECEMBER: </p>  <p style="color:green;display:inline">Your community met the monthly goal.</p>
-            </div>
-            </div>
-            <div class="item-right-menu">
-              <p style="display:inline"> NOVEMBER: </p>  <p style="color:green;display:inline">Your community met the monthly goal.</p>
-            </div>
+          </div>
+          <div class="item-right-menu">
+            <p style="display:inline"> NOVEMBER: </p>
+            <p style="color:green;display:inline">Your community met the monthly goal.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -66,83 +71,76 @@
     <span id="bell1" class="glyphicon glyphicon-bell bell" onclick="displayRightMenu()" style="float:right; margin-top:-55px;"></span>
     <div class="container">
       <div class="left-div-actions" style="display: inline;">
-          <img src="img/floorplan.png" alt="" style="margin-left: 200px" width="300px" height="500px">
+        <img src="img/floorplan.png" alt="" style="margin-left: 200px" width="300px" height="500px">
       </div>
       <div class="right-div-actions" style="float:right;">
-
-          <div class="meter" style="height: 150px;">
-              <div class='meter-bar green' style="width: 60%;height: 150px;" data-tooltip='This month’s aggregated energy consumption by the community.'>
-                <div class="txt-green first-txt" >
-                  This month:
-                </div>
-                <div class="progress-green">
-                  37500
-                </div>
-                <div class="txt-green">
-                  kWh
-                </div>
-              </div>
-              <div class='meter-bar gray' style="width: 20%;height: 150px;" data-tooltip='Last month’s aggregated energy on the same date '>
-                <div class="txt-gray first-txt">
-                  Last month: 58987 kWh
-                </div>
+        <div class="meter" style="height: 150px;">
+          <div class='meter-bar green' style="width: 60%;height: 150px;" data-tooltip='This month’s aggregated energy consumption by the community.'>
+            <div class="txt-green first-txt" >
+              This month:
+            </div>
+            <div class="progress-green">
+              37500
+            </div>
+            <div class="txt-green">
+              kWh
+            </div>
+          </div>
+          <div class='meter-bar gray' style="width: 20%;height: 150px;" data-tooltip='Last month’s aggregated energy on the same date '>
+            <div class="txt-gray first-txt">
+              Last month: 58987 kWh
+            </div>
+          </div>
+        </div>
+        <span  class="glyphicon glyphicon-option-horizontal" onclick="displayOptions()"></span>
+        <div id="sub-progress" style="display: none">
+          <h3 style="margin-top:30px;">Heating/Cooling</h3>
+          <div class="meter" style="height: 60px" data-tooltip='Your community is on too high heating, preventing to meet the goal.' >
+            <div class='meter-bar red' style="width: 60%;height: 60px;" >
+              <div style="margin-top: 20px">
+                <p class="sub-txt-number" > 37500 </p>
+                <p class="kWh">kWh</p>
               </div>
             </div>
-            <span  class="glyphicon glyphicon-option-horizontal" onclick="displayOptions()"></span>
-      
-            
-            <div id="sub-progress" style="display: none"> 
-              <h3 style="margin-top:30px;">Heating/Cooling</h3>
-              <div class="meter" style="height: 60px" data-tooltip='Your community is on too high heating, preventing to meet the goal.' >
-                <div class='meter-bar red' style="width: 60%;height: 60px;" >
-                  <div style="margin-top: 20px">
-                    <p class="sub-txt-number" > 37500 </p>
-                    <p class="kWh">kWh</p>
-                  </div>
-                </div>
-                <div class='meter-bar gray' style="width: 20%;height: 60px;">
-                  <div style="margin-top: 10px">
-                    <p class="sub-txt-gray-number ">58987 
-                  </div>
-                  <p class="kWh2">kWh
-                </div>
+            <div class='meter-bar gray' style="width: 20%;height: 60px;">
+              <div style="margin-top: 10px">
+                <p class="sub-txt-gray-number ">58987 
               </div>
-      
-              <h3 style="margin-top:20px;">Lights</h3>
-              <div class="meter" style="height: 60px" >
-                <div class='meter-bar yellow' style="width: 50%;height: 60px;" >
-                  <div style="margin-top: 20px">
-                    <p class="sub-txt-number" > 37500 </p>
-                    <p class="kWh">kWh</p>
-                  </div>
-                </div>
-                <div class='meter-bar gray' style="width: 20%;height: 60px;">
-                  <div style="margin-top: 10px">
-                    <p class="sub-txt-gray-number ">58987 
-                  </div>
-                  <p class="kWh2">kWh
-                </div>
-              </div>
-      
-              <h3 style="margin-top:20px;">Water Boiler</h3>
-              <div class="meter" style="height: 60px" >
-                <div class='meter-bar blue' style="width: 30%;height: 60px;" >
-                  <div style="margin-top: 20px">
-                    <p class="sub-txt-number" > 37500 </p>
-                    <p class="kWh">kWh</p>
-                  </div>
-                </div>
-                <div class='meter-bar gray' style="width: 20%;height: 60px;">
-                  <div style="margin-top: 10px">
-                    <p class="sub-txt-gray-number ">58987 
-                  </div>
-                  <p class="kWh2">kWh
-                </div>
-              </div>
+              <p class="kWh2">kWh
+            </div>
           </div>
-
+          <h3 style="margin-top:20px;">Lights</h3>
+          <div class="meter" style="height: 60px" >
+            <div class='meter-bar yellow' style="width: 50%;height: 60px;" >
+              <div style="margin-top: 20px">
+                <p class="sub-txt-number" > 37500 </p>
+                <p class="kWh">kWh</p>
+              </div>
+            </div>
+            <div class='meter-bar gray' style="width: 20%;height: 60px;">
+              <div style="margin-top: 10px">
+                <p class="sub-txt-gray-number ">58987 
+              </div>
+              <p class="kWh2">kWh
+            </div>
+          </div>
+          <h3 style="margin-top:20px;">Water Boiler</h3>
+          <div class="meter" style="height: 60px" >
+            <div class='meter-bar blue' style="width: 30%;height: 60px;" >
+              <div style="margin-top: 20px">
+                <p class="sub-txt-number" > 37500 </p>
+                <p class="kWh">kWh</p>
+              </div>
+            </div>
+            <div class='meter-bar gray' style="width: 20%;height: 60px;">
+              <div style="margin-top: 10px">
+                <p class="sub-txt-gray-number ">58987 
+              </div>
+              <p class="kWh2">kWh
+            </div>
+          </div>
+        </div>
       </div>
-      
     </div>
   </body>
 </html>
