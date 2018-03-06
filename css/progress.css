@@ -148,6 +148,8 @@
 	position: absolute;
 	padding-left: 530px;
 	margin-top: -30px;
+	color:red;
+	font-size: 16px;
 }
 .doted:after {
 	content:"";
