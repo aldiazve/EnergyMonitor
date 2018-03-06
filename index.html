@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="js/custom.js"></script>
     <style>
+      .community-goal {
+        z-index : 3;
+        position: absolute;
+        padding-left: 530px;
+        margin-top: -30px;
+      }
       .doted:after {
         content:"";
         position: absolute;
@@ -19,7 +25,6 @@
         height: 200px;
         bottom: 0;
         left: 900px;
-        
         border-left: 2px dotted red;
       }
     </style>
@@ -78,7 +83,8 @@
       Community Consumption This Month
     </div>
     <div id='container' style="  width:600px;margin-top: 100px;" >
-      <div class="doted"></div>
+      <h3 class="community-goal">Comumnity Goal</h3>
+      <div class="doted"> </div>
       <div class="meter" style="height: 150px;">
         <div class='meter-bar green' style="width: 60%;height: 150px;" data-tooltip='This month’s aggregated energy consumption by the community.'>
           <div class="txt-green first-txt" >
