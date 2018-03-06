@@ -10,6 +10,17 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="js/custom.js"></script>
+    <style>
+      .doted:after {
+        content:"";
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        border-left: 2px dotted #444;
+      }
+    </style>
   </head>
   <body>
     <div class="sidenav-left">
@@ -65,6 +76,7 @@
       Community Consumption This Month
     </div>
     <div id='container' style="  width:600px;margin-top: 100px;" >
+      <div class="doted"></div>
       <div class="meter" style="height: 150px;">
         <div class='meter-bar green' style="width: 60%;height: 150px;" data-tooltip='This month’s aggregated energy consumption by the community.'>
           <div class="txt-green first-txt" >
